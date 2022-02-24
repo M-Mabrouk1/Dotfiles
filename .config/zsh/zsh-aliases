@@ -1,0 +1,65 @@
+alias ls='ls --color=auto'
+
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
+
+# some more ls aliases
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -1'
+
+# Add an "alert" alias for long running commands.  Use like so:
+#   sleep 10; alert
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] ; echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+
+# aliasing commands for lsd
+alias ls='lsd'
+
+# aliasing command for clear
+alias c="clear"
+
+# aliasing command for cat
+alias cat="bat"
+
+# aliasing mv and rm
+alias mv="mv -i"
+alias rm="rm -i"
+
+# aliasing cd ..
+alias ..="cd .."
+alias sudo="sudo "
+# aliasing nvim
+alias v="nvim"
+alias sv="sudo -E nvim"
+
+# aliasing update and clean for debian
+# alias update="sudo apt update ; echo 'apt update done'"
+# alias upgrade="sudo apt upgrade ; echo 'apt upgrade done'"
+# alias clean="sudo apt autoremove ; echo 'apt remove done' ; sudo apt autoclean ; echo 'apt clean done'"
+# sudo ~/dotfiles/scripts/./remove_old_snaps.sh ; echo 'snap clean done'"
+
+# aliasing update and clean for Arch
+alias update="sudo pacman -Syyu"
+alias clean="pacman -Qtdq | sudo pacman -Rns -"
+alias cleanvar="paru -Scc"
+
+#grub update for Arch
+alias update-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
+
+#arcolinux logout unlock
+alias rmlogoutlock="sudo rm /tmp/arcologout.lock"
+
+#which graphical card is working
+alias whichvga="/usr/local/bin/arcolinux-which-vga"
+
+#Recent Installed Packages
+alias rip="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -200 | nl"
+alias riplong="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -3000 | nl"
+
+#maintenance
+alias big="expac -H M '%m\t%n' | sort -h | nl"
+
+#shutdown or reboot
+alias ssn="sudo shutdown now"
+alias sr="sudo reboot"
