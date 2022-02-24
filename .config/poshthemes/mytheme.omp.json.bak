@@ -1,0 +1,249 @@
+{
+  "final_space": false,
+  "osc99": true,
+  "blocks": [
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        // {
+        //   "type": "os",
+        //   "style": "po",
+        //   "leading_diamond": "╭─",
+        //   "foreground": "#000000",
+        //   "background": "#c386f1"
+        // },
+        {
+          "type": "session",
+          "style": "diamond",
+          "foreground": "#000000",
+          "background": "#c386f1",
+          "leading_diamond": "╭─",
+          "trailing_diamond": "",
+          "properties": {
+            "postfix": " ",
+            "display_host": false
+          }
+        },
+        {
+          "type": "path",
+          "style": "diamond",
+          "leading_diamond": "<transparent,#ff479c>\uE0B0</>",
+          "trailing_diamond": "\uE0B0",
+          "foreground": "#011627",
+          "background": "#ff479c",
+          "properties": {
+            "folder_separator_icon": " <#011627>\uE0B1</> ",
+            "prefix": " ",
+            "exclude_folders": [
+              "/home/mabrouk"
+            ],
+            // make home icon disapper
+            "home_icon": "",
+            "folder_icon": "\uf115",
+            "style": "folder",
+            "enable_hyperlink": false
+          }
+        },
+        // make home icon appear only at home
+        {
+          "type": "text",
+          "style": "diamond",
+          "leading_diamond": "<transparent,#ff479c>\uE0B0</>",
+          "trailing_diamond": "\uE0B0",
+          "foreground": "#011627",
+          "background": "#ff479c",
+          "properties": {
+            "include_folders": [
+              "/home/mabrouk"
+            ],
+            "prefix": "",
+            "text": "\uf46d",
+            "postfix": " "
+          }
+        },
+        {
+          "type": "git",
+          "style": "powerline",
+          "powerline_symbol": "\uE0B0",
+          "foreground": "#000000",
+          "background": "#bd93f9",
+          "properties": {
+            "display_stash_count": true,
+            "display_upstream_icon": true,
+            "status_colors_enabled": true,
+            "display_status": true,
+            "local_changes_color": "#8be9fd",
+            "ahead_and_behind_color": "#f26d50",
+            "behind_color": "#f9c513",
+            "ahead_color": "#50fa7b",
+            "stash_count_icon": "   \uF692    "
+          }
+        },
+        {
+          "type": "node",
+          "style": "powerline",
+          "powerline_symbol": "",
+          "foreground": "#ffffff",
+          "background": "#6CA35E",
+          "properties": {
+            "prefix": " \uF898 ",
+            "display_version": true
+          }
+        },
+        {
+          "type": "go",
+          "style": "powerline",
+          "powerline_symbol": "",
+          "foreground": "#111111",
+          "background": "#8ED1F7",
+          "properties": {
+            "prefix": " \uE626 ",
+            "display_version": true
+          }
+        },
+        {
+          "type": "julia",
+          "style": "powerline",
+          "powerline_symbol": "",
+          "foreground": "#111111",
+          "background": "#4063D8",
+          "properties": {
+            "prefix": " \uE624 ",
+            "display_version": true
+          }
+        },
+        {
+          "type": "python",
+          "style": "powerline",
+          "powerline_symbol": "",
+          "foreground": "#111111",
+          "background": "#ffffff",
+          "properties": {
+            "prefix": " \uE235 ",
+            "display_version": true,
+            "display_mode": "context",
+            "display_virtual_env": true
+          }
+        },
+        {
+          "type": "ruby",
+          "style": "powerline",
+          "powerline_symbol": "",
+          "foreground": "#ffffff",
+          "background": "#AE1401",
+          "properties": {
+            "prefix": " \uE791 ",
+            "display_version": true,
+            "display_mode": "files"
+          }
+        },
+        {
+          "type": "azfunc",
+          "style": "powerline",
+          "powerline_symbol": "",
+          "foreground": "#ffffff",
+          "background": "#FEAC19",
+          "properties": {
+            "prefix": " \uf0e7",
+            "display_version": false,
+            "display_mode": "files"
+          }
+        },
+        {
+          "type": "aws",
+          "style": "powerline",
+          "powerline_symbol": "",
+          "foreground": "#ffffff",
+          "background_templates": [
+            "{{if contains \"default\" .Profile}}#FFA400{{end}}",
+            "{{if contains \"jan\" .Profile}}#f1184c{{end}}"
+          ],
+          "properties": {
+            "prefix": " \uE7AD ",
+            "display_default": false
+          }
+        },
+        {
+          "type": "root",
+          "style": "powerline",
+          "powerline_symbol": "",
+          "foreground": "#111111",
+          "background": "#ffff66",
+          "properties": {
+            "root_icon": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "prompt",
+      "alignment": "right",
+      "segments": [
+        {
+          "type": "shell",
+          "style": "plain",
+          "foreground": "#ffffff",
+          "background": "#44475a",
+          "properties": {
+            "prefix": "<#44475a,transparent>\uE0B6</>  ",
+            "postfix": "<transparent,#44475a>\uE0B2</>"
+          }
+        },
+        {
+          "type": "time",
+          "style": "diamond",
+          "invert_powerline": true,
+          "leading_diamond": "\uE0B2",
+          "trailing_diamond": "\uE0B0",
+          "background": "#ffffff",
+          "foreground": "#111111",
+          "properties": {
+            "postfix": "<#000000> \uf64f </>"
+          }
+        },
+        {
+          "type": "executiontime",
+          "style": "diamond",
+          "leading_diamond": "<transparent,#44475a>\uE0B0</>",
+          "trailing_diamond": "\uE0B4",
+          "invert_powerline": true,
+          "foreground": "#ffffff",
+          "background": "#44475a",
+          "properties": {
+            "postfix": "<#ffffff> \uFBAB </>",
+            "always_enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "newline": true,
+      "segments": [
+        {
+          "type": "text",
+          "style": "plain",
+          "foreground": "#c386f1",
+          "properties": {
+            "prefix": "",
+            "postfix": "",
+            "text": "╰─"
+          }
+        },
+        {
+          "type": "exit",
+          "style": "plain",
+          "foreground": "#c386f1",
+          "properties": {
+            "prefix": "\ue285\ue285",
+            "display_exit_code": false,
+            "always_enabled": true,
+            "error_color": "#ef5350"
+          }
+        }
+      ]
+    }
+  ]
+}
