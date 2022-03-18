@@ -1,9 +1,9 @@
 #!/bin/sh
-PATH=$(find /sys/class/power_supply -name "hidpp*")
-if [ -z "$PATH" ]
+path=$(find /sys/class/power_supply -name "hidpp*")
+if [ -z "$path" ]
 then
       :
 else
-      capacity=$(/usr/bin/cat $PATH/capacity)
+      capacity=$(cat $path/capacity)
       echo "$capacity%"
 fi

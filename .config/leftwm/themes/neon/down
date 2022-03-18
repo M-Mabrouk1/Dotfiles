@@ -11,6 +11,6 @@ leftwm-command "UnloadTheme"
 
 pkill polybar
 pkill picom
-pkill dunst
+# pkill dunst
 pkill sxhkd
 # pkill -f ec4linux-applet
