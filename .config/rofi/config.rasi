@@ -5,9 +5,9 @@ configuration {
   font: "NotoSans Nerd Font Bold 10";
   modi: "window,run,drun,emoji";
   show-icons: true;
-  icon-theme: "Dracula";
-  /* kb-row-tab: "";
-  kb-row-select: "Tab"; */
+  icon-theme: "arcolinux-candy-beauty";
+  kb-row-tab: "";
+  kb-row-select: "Tab";
 }
 
 @theme "/home/mabrouk/.config/rofi/theme.rasi"
