@@ -9,7 +9,7 @@ fi
 ln -s $SCRIPTPATH/down /tmp/leftwm-theme-down
 
 # Start apps
-sxhkd -c ~/.config/sxhkd/sxhkdrc &
+sxhkd -c "$SCRIPTPATH"/sxhkd/sxhkdrc &
 # nm-applet &
 xfce4-power-manager &
 numlockx on &
@@ -27,14 +27,14 @@ dunst &
 
 # Boot picom
 if [ -x "$(command -v picom)" ]; then
-  picom --experimental-backends -b --config ~/.config/picom/picom.conf &> /dev/null &
+  picom --experimental-backends -b --config "$SCRIPTPATH"/picom/picom.conf &> /dev/null &
 fi
 
 # Set the theme.toml config
 leftwm-command "LoadTheme $SCRIPTPATH/theme.toml"
 
 # Set background
-~/Dotfiles/scripts/set-wallpaper &
+$SCRIPTPATH/scripts/set-wallpaper &
 
 #mainbar
 index=0
