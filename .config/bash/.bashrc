@@ -16,8 +16,8 @@ export HISTCONTROL=ignoreboth:erasedups
 
 # Make nano the default editor
 
-export EDITOR='nano'
-export VISUAL='nano'
+# export EDITOR='nano'
+# export VISUAL='nano'
 
 PS1='[\u@\h \W]\$ '
 
