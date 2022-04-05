@@ -214,14 +214,14 @@ name = "neon"
 directory = "/home/mabrouk/.config/leftwm/themes/neon"
 version = "0.0.0"
 leftwm_versions = "*"
-current = true
+current = false
 
 [[repos.themes]]
 name = "neon-i"
 directory = "/home/mabrouk/.config/leftwm/themes/neon-i"
 version = "0.0.0"
 leftwm_versions = "*"
-current = false
+current = true
 
 [[repos]]
 url = "https://raw.githubusercontent.com/arcolinux/arcolinux-leftwm-themes/master/known.toml"
