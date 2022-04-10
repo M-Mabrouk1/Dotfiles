@@ -1,4 +1,4 @@
-border_width = 2
+border_width = 3
 margin = [4, 4]
 default_border_color = "{background}"
 floating_border_color = "{color6}"
