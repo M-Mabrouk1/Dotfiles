@@ -1,7 +1,5 @@
 \.git
 misc
 scripts
-saved_settings.dconf
-.bashrc
 wallpapers
-.zshenv
+.gitmodules

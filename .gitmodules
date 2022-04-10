@@ -1,0 +1,3 @@
+[submodule ".config/leftwm/themes/neon-i"]
+	path = .config/leftwm/themes/neon-i
+	url = git@github.com:M-Mabrouk1/neon-i.git
