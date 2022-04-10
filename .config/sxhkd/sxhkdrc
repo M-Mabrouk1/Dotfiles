@@ -1,7 +1,7 @@
 ##### Sxhkd
 #reload sxhkd:
 super + shift + s
-	pkill -USR1 -x sxhkd
+	pkill -USR1 -x sxhkd && notify-send "sxhkd reloaded"
 
 
 ##### Run Apps
@@ -37,6 +37,10 @@ super + f
 #Pavucontrol
 super + v
     pavucontrol
+
+# Github desktop
+super + g
+	"github desktop"
 
 #arcolinux-welcome-app
 ctrl + alt + w

@@ -21,6 +21,11 @@ scratchpad = [
     { name = "Peek", value = "peek --no-headerbar", x = 0, y = 0, height = 1080, width = 1920 },
 ]
 
+window_rules = [
+#   {window_class = "nemo", spawn_on_tag = 2},
+#   {window_class = "Pentablet", spawn_on_tag = 9, spawn_floating = true},
+]
+
 [[keybind]]
 command = "ToggleScratchPad"
 value = "Alacritty"
