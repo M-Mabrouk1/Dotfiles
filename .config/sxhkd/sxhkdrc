@@ -3,57 +3,18 @@
 super + shift + s
 	pkill -USR1 -x sxhkd && notify-send "sxhkd reloaded"
 
-
 ##### Run Apps
-# alacritty
-super + Return
-   alacritty
+#launch apps
+super + {Return,n,c,b,f,v,g,o}
+    {alacritty,nemo,code,brave,firefox,pavucontrol,github-desktop,obs}
 
-# nemo
-super + n
-    nemo
-
-#VS-code
-super + c
-    code
-
-# brave
-super + b
-    brave
-
-# brave
-ctrl + shift + n
-    brave -incognito www.google.com
-
-# copyq
-super + shift + c
-	copyq toggle
-
-# Firefox
-super + f
-    firefox
-    #XDG_CONFIG_HOME=$HOME/.config/gtk-Firefox firefox
-
-#Pavucontrol
-super + v
-    pavucontrol
-
-# Github desktop
-super + g
-	"github desktop"
-
-#arcolinux-welcome-app
-ctrl + alt + w
-     arcolinux-welcome-app
-
-#arcolinux-tweak-tool
-ctrl + alt + e
-    arcolinux-tweak-tool
-
-# logout
-super + shift + x
-    arcolinux-logout
-
+#run apps nvidia
+super + shift + n; {o} 
+    prime-run {obs}
+#Misc
+super + shift + {c,x,e,z}
+	{copyq toggle,arcolinux-logout,rofi -show emoji,ec4Linux change-state}
+    
 ##### Screenshot
 #Flameshot
 @Print
@@ -65,6 +26,9 @@ shift + @Print
 
 ##### Application launcher
 # dmenu
+super + {d,Escape,y}
+    {rofi -show drun,xkill,polybar-msg cmd toggle}
+
 super + shift + d
 	dmenu_run -i -nb '#191919' -nf '#ae34eb' -sb '#ae34eb' -sf '#191919' -fn 'NotoSans Nerd Font:bold:pixelsize=14'
 
@@ -72,17 +36,9 @@ super + shift + d
 super + F11
     rofi -theme-str 'window \{width: 100%;height: 100%;\}' -show drun
 
-#Rofi
-super + d
-    rofi -show drun
-
-# dmenu
-super + shift + e
-    rofi -show emoji
-
 ##### Notifications
 # Notifications History
-super + shift + n
+super + shift + b
     dunstctl history-pop
 
 ctrl + space
@@ -99,19 +55,6 @@ ctrl + alt + o
 super + shift + m
     ~/Dotfiles/scripts/mtp.sh
 
-#####Misc
-#Xkill
-super + Escape
-    xkill
-
-#Hide polybar
-super + y
-    polybar-msg cmd toggle
-
-# toggle fan
-super + shift + z
-    ec4Linux change-state
-
 ##### Multimedia
 #Raises volume
 XF86AudioRaiseVolume
@@ -125,15 +68,6 @@ XF86AudioLowerVolume
 XF86AudioMute
     ~/Dotfiles/scripts/changevolume mute
     # amixer -D pulse set Master 1+ toggle
-
-#Playerctl works for Pragha, Spotify and others
-#Delete the line for playerctl if you want to use mpc
-#and replace it with the corresponding code
-#mpc works for e.g.ncmpcpp
-#mpc toggle
-#mpc next
-#mpc prev
-#mpc stop
 
 #PLAY
 XF86AudioPlay
@@ -152,10 +86,6 @@ XF86AudioStop
     playerctl stop
 
 #Brightness up
-# XF86MonBrightnessUp
-#     xbacklight -inc 10
-
-#Brightness up
 XF86MonBrightnessUp
     ~/Dotfiles/scripts/changebrightness up
 
@@ -163,8 +93,7 @@ XF86MonBrightnessUp
 XF86MonBrightnessDown
     ~/Dotfiles/scripts/changebrightness down
 
-# super + g; {n} 
-#   prime-run {alacritty}
-
-# super + {g,l}
-#     {alacritty,nemo}
+# # Firefox
+# super + f
+#     firefox
+#     #XDG_CONFIG_HOME=$HOME/.config/gtk-Firefox firefox

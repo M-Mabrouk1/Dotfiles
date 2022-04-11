@@ -46,7 +46,6 @@ current = false
 
 [[repos.themes]]
 name = "Dracula Rounded"
-directory = "/home/mabrouk/.config/leftwm/themes/Dracula Rounded"
 repository = "https://github.com/AethanFoot/leftwm-theme-dracula-rounded/"
 commit = "*"
 version = "0.0.2"
@@ -214,14 +213,14 @@ name = "neon"
 directory = "/home/mabrouk/.config/leftwm/themes/neon"
 version = "0.0.0"
 leftwm_versions = "*"
-current = true
+current = false
 
 [[repos.themes]]
 name = "neon-i"
 directory = "/home/mabrouk/.config/leftwm/themes/neon-i"
 version = "0.0.0"
 leftwm_versions = "*"
-current = false
+current = true
 
 [[repos]]
 url = "https://raw.githubusercontent.com/arcolinux/arcolinux-leftwm-themes/master/known.toml"
@@ -230,7 +229,6 @@ definitions_version = 0
 
 [[repos.themes]]
 name = "docky"
-directory = "/home/mabrouk/.config/leftwm/themes/docky"
 repository = "https://github.com/arcolinux/arcolinux-leftwm-theme-docky/"
 commit = "*"
 version = "2.4.1"
