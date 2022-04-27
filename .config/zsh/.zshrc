@@ -1,5 +1,10 @@
 # My config
 
+# add directory to the path
+if [ -d "$HOME/.local/bin" ] ;
+  then PATH="$HOME/.local/bin:$PATH"
+fi
+
 # History in cache directory:
 HISTSIZE=10000
 SAVEHIST=10000
@@ -70,3 +75,6 @@ export  LC_ALL=en_US.UTF-8
 # bind ` key to move forward one word
 bindkey '\140' forward-word
 bindkey "^[[3~" delete-char
+
+# coloured man pages
+source "$ZDOTDIR/coloured-man"
