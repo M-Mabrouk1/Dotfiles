@@ -16,8 +16,10 @@ export GTK2_RC_FILES="$XDG_CONFIG_HOME"/gtk-2.0/gtkrc
 # export nvidia-settings --config="$XDG_CONFIG_HOME"/nvidia/settings
 export CUDA_CACHE_PATH="$XDG_CACHE_HOME"/nv
 export NUGET_PACKAGES="$XDG_CACHE_HOME"/NuGetPackages
+export _ZL_DATA="$XDG_DATA_HOME/zlua/.zlua"
+
 # Disable file
-export LESSHISTFILE=-
+# export LESSHISTFILE=-
 # #input method
 # export GTK_IM_MODULE=fcitx
 # export QT_IM_MODULE=fcitx

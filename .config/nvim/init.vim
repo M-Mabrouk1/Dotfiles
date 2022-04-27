@@ -21,6 +21,7 @@ set nobackup
 set noswapfile
 set wildmode=longest,list,full
 syntax enable
+let NERDTreeShowHidden=1
 " }}}
 
 
@@ -49,9 +50,11 @@ call plug#end()
 
 " MAPPINGS --------------------------------------------------------------- {{{
 " Nerd tree maps
-nnoremap <C-f> :NERDTreeFocus<CR>
-nnoremap <C-n> :NERDTree<CR>
-nnoremap <C-t> :NERDTreeToggle<CR>
+nmap <C-f> :NERDTreeFocus<CR>
+" nnoremap <C-n> :NERDTree<CR>
+nmap <C-t> :NERDTreeToggle<CR>
+
+" nmap <C-V> :vsp 
 
 " Tagbar toggle
 nmap <F8> :TagbarToggle<CR>
