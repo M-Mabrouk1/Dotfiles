@@ -124,11 +124,21 @@ key = "space"
 # modifier = ["modkey","Shift"]
 # key = "Left"
 
+
+[[keybind]]
+command = "FocusWorkspaceNext"
+modifier = ["modkey"]
+key = "Right"
+
+[[keybind]]
+command = "FocusWorkspacePrevious"
+modifier = ["modkey"]
+key = "Left"
+
 [[keybind]]
 command = "FloatingToTile"
 modifier = ["modkey", "Shift"]
 key = "t"
-
 
 [[keybind]]
 command = "FocusNextTag"
