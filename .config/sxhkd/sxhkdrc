@@ -13,7 +13,7 @@ super + shift + n; {o}
     prime-run {obs}
 #Misc
 super + shift + {c,x,e,z}
-	{copyq toggle,arcolinux-logout,rofi -show emoji,ec4Linux change-state}
+	{copyq toggle,archlinux-logout,rofi -show emoji,ec4Linux change-state}
     
 ctrl + shift + n
     brave --incognito www.google.com
@@ -44,7 +44,7 @@ super + F11
 super + shift + b
     dunstctl history-pop
 
-ctrl + space
+alt + space
     dunstctl close
 
 super + shift + p

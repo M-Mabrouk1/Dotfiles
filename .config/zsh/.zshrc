@@ -1,6 +1,6 @@
 # My config
 
-# add directory to the path
+# add directory to the path if exists
 if [ -d "$HOME/.local/bin" ] ;
   then PATH="$HOME/.local/bin:$PATH"
 fi
@@ -38,11 +38,13 @@ eval "$(lua ~/.config/z.lua/z.lua  --init zsh enhanced once)"
 # Start oh my posh prompt
 eval "$(oh-my-posh --init --shell zsh --config ~/.config/poshthemes/mytheme.omp.json)"
 
-#vim mode
-# bindkey -v
-
 # sourcing functions
 source "$ZDOTDIR/zsh-functions"
+
+#vim mode
+zsh_add_file "zsh-vim-mode"
+# bindkey -v
+# bindkey "^?" backward-delete-char
 
 # adding files
 zsh_add_file "zsh-aliases"
@@ -77,4 +79,8 @@ bindkey '\140' forward-word
 bindkey "^[[3~" delete-char
 
 # coloured man pages
-source "$ZDOTDIR/coloured-man"
+zsh_add_file "coloured-man"
+
+# source fzf
+source "/usr/share/fzf/key-bindings.zsh"
+source "/usr/share/fzf/completion.zsh"

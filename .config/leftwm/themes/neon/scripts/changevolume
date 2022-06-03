@@ -1,7 +1,10 @@
 #!/bin/bash
 
 function send_notification() {
-	volume=$(awk -F"[][]" '/Left:/ { print $2 }' <(amixer sget Master))
+	# for pulseaudio
+	# volume=$(awk -F"[][]" '/Left:/ { print $2 }' <(amixer sget Master))
+	# for pipewire
+	volume=$(awk '/front-left:/ { print $5 }' <(pactl list sinks))
 	dunstify -a "changevolume" -u low -r 9991 -h int:value:"$volume" "Volume-$1" "Volume: $volume" -t 2000
 }
 
@@ -15,6 +18,9 @@ down)
 	send_notification $1
 	;;
 mute)
-	amixer -D pulse set Master 1+ toggle
+	# for pulse audio
+	# amixer -D pulse set Master 1+ toggle
+	# for pipewire
+	amixer -D pipewire set Master 1+ toggle
 	send_notification $1
 esac
