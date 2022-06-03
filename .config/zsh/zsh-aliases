@@ -19,8 +19,9 @@ alias ls='lsd'
 # aliasing command for clear
 alias c="clear"
 
-# aliasing command for cat
+# aliasing command for cat and batman
 alias cat="bat"
+# alias man="batman"
 
 # aliasing mv and rm
 alias mv="mv -i"
@@ -45,7 +46,7 @@ alias clean="pacman -Qtdq | sudo pacman -Rns -"
 alias cleanvar="paru -Scc"
 
 #grub update for Arch
-alias update-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
+alias grub-update="sudo grub-mkconfig -o /boot/grub/grub.cfg"
 
 #arcolinux logout unlock
 alias rmlogoutlock="sudo rm /tmp/arcologout.lock"
