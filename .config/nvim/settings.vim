@@ -22,4 +22,5 @@ set wildmode=longest,list,full
 set splitbelow splitright
 syntax enable
 let NERDTreeShowHidden=1
+set foldmethod=marker
 " }}}
