@@ -24,6 +24,8 @@ nmap <F8> :TagbarToggle<CR>
 
 " Mapping ii to escape 
 :imap ii <Esc>
+" :imap <C-C> <Nop>
+" nmap <C-C> <Nop>
 
 " Tabs
 nnoremap <C-l>h :tabr<cr>

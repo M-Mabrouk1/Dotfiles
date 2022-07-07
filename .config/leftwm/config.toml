@@ -18,6 +18,7 @@ focus_new_windows = true
 scratchpad = [
     # { name = "Alacritty", value = "alacritty", x = 510, y = 190, height = 700, width = 900 },
     { name = "Alacritty", value = "alacritty", x = 360, y = 90, height = 900, width = 1200 },
+    { name = "Pavucontrol", value = "pavucontrol", x = 360, y = 90, height = 900, width = 1200 },
     { name = "Peek", value = "peek --no-headerbar", x = 0, y = 0, height = 1080, width = 1920 },
 ]
 
@@ -39,7 +40,16 @@ modifier = ["Alt", "Shift"]
 key = "p"
 
 
+[[keybind]]
+command = "ToggleScratchPad"
+value = "Pavucontrol"
+modifier = ["modkey", "Shift"]
+key = "v"
 
+[[keybind]]
+command = "ToggleSticky"
+modifier = ["modkey"]
+key = "s"
 
 [[keybind]]
 command = "Execute"

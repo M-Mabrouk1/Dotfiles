@@ -1,0 +1,22 @@
+# settings
+
+(GimpGegl-gegl-recursive-transform-config "2022-06-04 12:09:16"
+    (time 1654337356)
+    (transform "matrix(1,0,0,0,1,0,9,3,1)")
+    (first-iteration 0)
+    (iterations 1)
+    (fade-color (color-rgba 0.24313725490196078 0.47058823529411764 0.80784313725490198 1))
+    (fade-opacity 0.69099999999999995)
+    (paste-below yes)
+    (sampler-type linear))
+(GimpGegl-gegl-recursive-transform-config "2022-06-04 12:03:39"
+    (time 1654337019)
+    (transform "matrix(1,0,0,0,1,0,12,12,1)")
+    (first-iteration 0)
+    (iterations 1)
+    (fade-color (color-rgba 0.82920110192837471 0.088038635513382993 0.088038635513382993 1))
+    (fade-opacity 1)
+    (paste-below yes)
+    (sampler-type linear))
+
+# end of settings
