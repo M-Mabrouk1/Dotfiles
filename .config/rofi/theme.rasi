@@ -12,10 +12,10 @@
 }
 
 #window {
-  background-color:               @background;
+  /* background-color:               @background; */
   text-color:                     @foreground;
 	border:							0;
-	border-color:					@background;
+	/* border-color:					@background; */
   border-radius:                  8;
 	width:							450px;
   height:     100%;

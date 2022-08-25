@@ -30,7 +30,7 @@ zmodload zsh/complist
 _comp_options+=(globdots)		# Include hidden files.
 
 # Start neofetch
-neofetch | lolcat
+# neofetch | lolcat
 
 # adding z.lua
 eval "$(lua ~/.config/z.lua/z.lua  --init zsh enhanced once)"

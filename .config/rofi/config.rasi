@@ -6,7 +6,7 @@ configuration {
   modi: "window,run,drun,emoji";
   show-icons: true;
   icon-theme: "arcolinux-candy-beauty";
-  kb-row-tab: "";
+  kb-element-next: "";
   kb-row-select: "Tab";
 }
 

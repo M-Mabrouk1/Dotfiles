@@ -1,9 +1,10 @@
 # GIMP gimp-text-tool options
 
-(foreground (color-rgb 0.91372555494308472 0.25098040699958801 0.4901961088180542))
+(foreground (color-rgb 1 1 1))
 (palette "linux")
 (font "Noto Sans Kannada UI")
 (font-size 200)
 (justify center)
+(box-mode fixed)
 
 # end of gimp-text-tool options

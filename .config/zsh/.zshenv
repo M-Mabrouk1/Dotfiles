@@ -18,7 +18,10 @@ export CUDA_CACHE_PATH="$XDG_CACHE_HOME"/nv
 export NUGET_PACKAGES="$XDG_CACHE_HOME"/NuGetPackages
 export _ZL_DATA="$XDG_DATA_HOME/zlua/.zlua"
 
-systemctl --user import-environment PATH
+# GTK4 app theme
+export GTK_THEME=Dracula
+
+# systemctl --user import-environment PATH
 
 # Disable file
 # export LESSHISTFILE=-

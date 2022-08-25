@@ -1,5 +1,6 @@
-border_width = 3
-margin = [4, 4]
+border_width = 2
+margin = 2
+workspace_margin=0
 default_border_color = "{background}"
 floating_border_color = "{color6}"
 focused_border_color = "{foreground}"
