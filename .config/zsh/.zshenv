@@ -19,7 +19,7 @@ export NUGET_PACKAGES="$XDG_CACHE_HOME"/NuGetPackages
 export _ZL_DATA="$XDG_DATA_HOME/zlua/.zlua"
 
 # GTK4 app theme
-export GTK_THEME=Dracula
+# export GTK_THEME=Dracula
 
 # systemctl --user import-environment PATH
 
