@@ -1,6 +1,5 @@
-.config/obs-studio/logs/*
-.config/obs-studio/plugin_config/*
-.config/plugins/*
-.config/updates/*
-.config/profiler_data/*
-
+.config/obs-studio/logs/
+.config/obs-studio/plugin_config/
+.config/plugins/
+.config/updates/
+.config/profiler_data/
