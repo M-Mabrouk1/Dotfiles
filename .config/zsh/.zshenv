@@ -17,9 +17,12 @@ export GTK2_RC_FILES="$XDG_CONFIG_HOME"/gtk-2.0/gtkrc
 export CUDA_CACHE_PATH="$XDG_CACHE_HOME"/nv
 export NUGET_PACKAGES="$XDG_CACHE_HOME"/NuGetPackages
 export _ZL_DATA="$XDG_DATA_HOME/zlua/.zlua"
+export CARGO_HOME="$XDG_DATA_HOME"/cargo
+export _JAVA_OPTIONS=-Djava.util.prefs.userRoot="$XDG_CONFIG_HOME"/java
 
 # GTK4 app theme
 # export GTK_THEME=Dracula
+export GTK_THEME="$(grep 'gtk-theme-name' "${XDG_CONFIG_HOME:-$HOME/.config}/gtk-3.0/settings.ini" | sed 's/.*\s*=\s*//')"
 
 # systemctl --user import-environment PATH
 

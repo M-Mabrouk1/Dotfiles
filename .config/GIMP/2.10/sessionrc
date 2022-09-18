@@ -92,8 +92,8 @@
                     (show-button-bar "true"))))))
 (session-info "toplevel"
     (factory-entry "gimp-preferences-dialog")
-    (position 480 278)
-    (size 960 525))
+    (position 480 277)
+    (size 960 527))
 (session-info "toplevel"
     (factory-entry "gimp-file-open-dialog")
     (position 479 170)
@@ -106,11 +106,11 @@
     (position 411 194))
 (session-info "toplevel"
     (factory-entry "gimp-file-export-dialog")
-    (position 479 170)
-    (size 960 762))
+    (position 486 171)
+    (size 948 762))
 (session-info "toplevel"
     (factory-entry "gimp-image-new-dialog")
-    (position 757 216))
+    (position 480 289))
 (session-info "toplevel"
     (factory-entry "gimp-file-save-dialog")
     (position 479 170)

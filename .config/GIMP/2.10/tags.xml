@@ -1177,7 +1177,7 @@
   <resource identifier="${gimp_data_dir}/gradients/Yellow_Orange.ggr" checksum="428584726006e23e260baa2a7d79f295">
   </resource>
 
-  <resource identifier="gimp-palette-color-history" checksum="f6d7ff1b34008d474dbb3454f3542576">
+  <resource identifier="gimp-palette-color-history" checksum="91a3db4340501829e197f5cd596d9d33">
   </resource>
 
   <resource identifier="${gimp_data_dir}/palettes/Bears.gpl" checksum="e82e818c20ac12bdd21049924ea2d1e7">
@@ -1877,6 +1877,42 @@
   </resource>
 
   <resource identifier="Felix Titling" checksum="(null)">
+  </resource>
+
+  <resource identifier="FiraCode Nerd Font" checksum="(null)">
+  </resource>
+
+  <resource identifier="FiraCode Nerd Font Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="FiraCode Nerd Font Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="FiraCode Nerd Font Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="FiraCode Nerd Font Mono" checksum="(null)">
+  </resource>
+
+  <resource identifier="FiraCode Nerd Font Mono Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="FiraCode Nerd Font Mono Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="FiraCode Nerd Font Mono Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="FiraCode Nerd Font Mono Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="FiraCode Nerd Font Mono weight=450" checksum="(null)">
+  </resource>
+
+  <resource identifier="FiraCode Nerd Font Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="FiraCode Nerd Font weight=450" checksum="(null)">
   </resource>
 
   <resource identifier="FontAwesome" checksum="(null)">
