@@ -37,12 +37,32 @@ keys = [
 
     Key([mod], "space", lazy.next_layout(), desc="Toggle between layouts"),
     Key([mod, "shift"], "space", lazy.prev_layout(), desc="Toggle between layouts"),
-
-    Key([mod, "control"], "h", lazy.layout.grow_left(), desc="Grow window to the left"),
-    Key([mod, "control"], "l", lazy.layout.grow_right(), desc="Grow window to the right"),
-    Key([mod, "control"], "j", lazy.layout.grow_down(), desc="Grow window down"),
-    Key([mod, "control"], "k", lazy.layout.grow_up(), desc="Grow window up"),
-
+    Key([mod, "control"], "l",
+        lazy.layout.grow_right(),
+        lazy.layout.grow(),
+        lazy.layout.increase_ratio(),
+        lazy.layout.delete(),
+        desc="Increase active window size."
+        ),
+    Key([mod, "control"], "h",
+        lazy.layout.grow_left(),
+        lazy.layout.shrink(),
+        lazy.layout.decrease_ratio(),
+        lazy.layout.add(),
+        desc="Decrease active window size."
+        ),
+    Key([mod, "control"], "k",
+        lazy.layout.grow_up(),
+        lazy.layout.grow(),
+        lazy.layout.decrease_nmaster(),
+        desc="Increase active window size."
+        ),
+    Key([mod, "control"], "j",
+        lazy.layout.grow_down(),
+        lazy.layout.shrink(),
+        lazy.layout.increase_nmaster(),
+        desc="Decrease active window size."
+        ),
     Key([mod, "shift"], "t", lazy.window.toggle_floating(), desc="Toggle between layouts"),
     Key([mod], "Tab", lazy.screen.next_group(), desc="Toggle between groups"),
     Key([mod, "shift"], "Tab", lazy.screen.prev_group(), desc="Toggle between layouts"),
@@ -89,20 +109,26 @@ for i in groups:
             # # mod1 + shift + letter of group = move focused window to group
             # Key([mod, "shift"], i.name, lazy.window.togroup(i.name),
             #     desc="move focused window to group {}".format(i.name)),
-            Key([mod,"shift"], "Return", lazy.group["ScratchPad"].dropdown_toggle("alacritty")),
         ]
     )
+
 # scratchpads
 groups.append(ScratchPad("ScratchPad", [
     DropDown("alacritty", 'alacritty', width=0.625,height=0.83, x=0.1875, y=0.083),
     ]),
 )
 
+
+keys.extend([
+            Key([mod,"shift"], "Return", lazy.group["ScratchPad"].dropdown_toggle("alacritty")),
+])
+
+
+
 # layouts
 layouts = [
     layout.Columns(border_focus_stack=["#d75f5f", "#8f3d3d"], border_width=4),
     layout.Max(),
-    # Try more layouts by unleashing below layouts.
     layout.Stack(num_stacks=2),
     layout.Bsp(),
     layout.Matrix(),
@@ -116,17 +142,18 @@ layouts = [
 ]
 
 widget_defaults = dict(
-    font="sans",
+    font="NotoSans Nerd Font",
     fontsize=12,
-    padding=3,
+    padding=2,
 )
-extension_defaults = widget_defaults.copy()
+# extension_defaults = widget_defaults.copy()
+
 
 screens = [
     Screen(
         top=bar.Bar(
             [
-                widget.CurrentLayout(),
+                # widget.CurrentLayout(),
                 widget.GroupBox(),
                 widget.Prompt(),
                 widget.WindowName(),
@@ -136,11 +163,11 @@ screens = [
                     },
                     name_transform=lambda name: name.upper(),
                 ),
-                widget.TextBox("default config", name="default"),
-                widget.TextBox("Press &lt;M-r&gt; to spawn", foreground="#d75f5f"),
-                widget.Systray(),
+                # widget.TextBox("default config", name="default"),
+                # widget.TextBox("Press &lt;M-r&gt; to spawn", foreground="#d75f5f"),
                 widget.Clock(format="%Y-%m-%d %a %I:%M %p"),
-                widget.QuickExit(),
+                # widget.QuickExit(),
+                widget.Systray(),
             ],
             24,
             # border_width=[2, 0, 2, 0],  # Draw top and bottom borders

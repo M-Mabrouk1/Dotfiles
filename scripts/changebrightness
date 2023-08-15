@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 function send_notification() {
 	brightness=$(printf "%.0f\n" $(xbacklight -get))

@@ -1,2 +1,2 @@
-#!/bin/sh
+#!/usr/bin/env bash
 feh --randomize --no-fehbg --bg-fill /mnt/M\&H/Pics/Wallpapers/*

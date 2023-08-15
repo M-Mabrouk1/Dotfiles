@@ -41,7 +41,8 @@ alias sv="sudo -E nvim"
 # sudo ~/dotfiles/scripts/./remove_old_snaps.sh ; echo 'snap clean done'"
 
 # aliasing update and clean for Arch
-alias update="sudo pacman -Syyu"
+# alias update="sudo pacman -Syyu"
+alias update="paru"
 alias clean="pacman -Qtdq | sudo pacman -Rns -"
 alias cleanvar="paru -Scc"
 

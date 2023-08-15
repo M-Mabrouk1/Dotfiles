@@ -1,0 +1,6 @@
+Command=/home/mabrouk/Dotfiles/scripts/dunstctl.sh
+UseLabel=0
+Text=(genmon)
+UpdatePeriod=2000
+Font=NotoSans Nerd Font 13
+

@@ -38,12 +38,15 @@ eval "$(lua ~/.config/z.lua/z.lua  --init zsh enhanced once)"
 # Start oh my posh prompt
 eval "$(oh-my-posh --init --shell zsh --config ~/.config/poshthemes/mytheme.omp.json)"
 
+# Start Starship
+# eval "$(starship init zsh)"
+
 # sourcing functions
 source "$ZDOTDIR/zsh-functions"
 
 #vim mode
 zsh_add_file "zsh-vim-mode"
-# bindkey -v
+# bindkey -e
 # bindkey "^?" backward-delete-char
 
 # adding files

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="configver" type="int" value="2"/>
+  <property name="panels" type="array">
+    <value type="int" value="1"/>
+    <property name="dark-mode" type="bool" value="false"/>
+    <property name="panel-1" type="empty">
+      <property name="position" type="string" value="p=6;x=0;y=0"/>
+      <property name="length" type="uint" value="100"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="icon-size" type="uint" value="16"/>
+      <property name="size" type="uint" value="30"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="7"/>
+        <value type="int" value="3"/>
+        <value type="int" value="8"/>
+        <value type="int" value="10"/>
+        <value type="int" value="15"/>
+        <value type="int" value="16"/>
+        <value type="int" value="5"/>
+        <value type="int" value="4"/>
+        <value type="int" value="11"/>
+        <value type="int" value="2"/>
+        <value type="int" value="13"/>
+        <value type="int" value="1"/>
+        <value type="int" value="14"/>
+        <value type="int" value="6"/>
+        <value type="int" value="19"/>
+        <value type="int" value="9"/>
+        <value type="int" value="12"/>
+        <value type="int" value="20"/>
+      </property>
+      <property name="output-name" type="string" value="Automatic"/>
+      <property name="mode" type="uint" value="0"/>
+      <property name="span-monitors" type="bool" value="false"/>
+      <property name="nrows" type="uint" value="1"/>
+    </property>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-2" type="string" value="tasklist">
+      <property name="grouping" type="bool" value="false"/>
+      <property name="show-labels" type="bool" value="false"/>
+      <property name="show-handle" type="bool" value="false"/>
+      <property name="include-all-workspaces" type="bool" value="false"/>
+      <property name="flat-buttons" type="bool" value="false"/>
+      <property name="sort-order" type="uint" value="0"/>
+      <property name="show-tooltips" type="bool" value="false"/>
+      <property name="window-scrolling" type="bool" value="true"/>
+      <property name="show-wireframes" type="bool" value="false"/>
+      <property name="switch-workspace-on-unminimize" type="bool" value="true"/>
+    </property>
+    <property name="plugin-3" type="string" value="separator">
+      <property name="expand" type="bool" value="false"/>
+      <property name="style" type="uint" value="1"/>
+    </property>
+    <property name="plugin-4" type="string" value="pager">
+      <property name="rows" type="uint" value="1"/>
+      <property name="miniature-view" type="bool" value="true"/>
+    </property>
+    <property name="plugin-5" type="string" value="separator">
+      <property name="style" type="uint" value="1"/>
+    </property>
+    <property name="plugin-6" type="string" value="systray">
+      <property name="square-icons" type="bool" value="false"/>
+      <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “mi 10t” active: mi 10t (84%)"/>
+        <value type="string" value="wi-fi network connection “mi 10t” active: mi 10t (88%)"/>
+        <value type="string" value="ferdium"/>
+        <value type="string" value="slack"/>
+        <value type="string" value="fcitx5 tray window"/>
+        <value type="string" value="ethernet network connection “auto ethernet” active"/>
+        <value type="string" value="calfjackhost"/>
+        <value type="string" value="wi-fi network connection “roka” active: roka (80%)"/>
+        <value type="string" value="wi-fi network connection “roka” active: roka (76%)"/>
+        <value type="string" value="ethernet network connection “bridge0 port 1” active"/>
+        <value type="string" value="xfce4-power-manager"/>
+        <value type="string" value="networkmanager applet"/>
+        <value type="string" value="wi-fi network connection “roka” active: roka (82%)"/>
+        <value type="string" value="blueberry-tray.py"/>
+        <value type="string" value="wi-fi network connection “roka” active: roka (84%)"/>
+      </property>
+      <property name="known-items" type="array">
+        <value type="string" value="chrome_status_icon_1"/>
+        <value type="string" value="qBittorrent"/>
+        <value type="string" value="Ferdium3"/>
+        <value type="string" value="Ferdium2"/>
+        <value type="string" value="droidcam"/>
+        <value type="string" value="stacer"/>
+        <value type="string" value="Slack1"/>
+        <value type="string" value="vlc"/>
+        <value type="string" value="obs"/>
+        <value type="string" value="zoom"/>
+        <value type="string" value="virt-manager"/>
+        <value type="string" value="Ferdium1"/>
+        <value type="string" value="Fcitx"/>
+      </property>
+      <property name="icon-size" type="int" value="0"/>
+      <property name="hide-new-items" type="bool" value="false"/>
+      <property name="single-row" type="bool" value="false"/>
+      <property name="symbolic-icons" type="bool" value="true"/>
+    </property>
+    <property name="plugin-9" type="string" value="power-manager-plugin"/>
+    <property name="plugin-11" type="string" value="separator">
+      <property name="style" type="uint" value="1"/>
+    </property>
+    <property name="plugin-12" type="string" value="clock">
+      <property name="mode" type="uint" value="2"/>
+      <property name="tooltip-format" type="string" value="%A %d %B %Y"/>
+      <property name="digital-format" type="string" value="%a %_d %b, %R"/>
+      <property name="digital-time-format" type="string" value="%a %_d %b, %R"/>
+      <property name="digital-layout" type="uint" value="3"/>
+    </property>
+    <property name="plugin-13" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+      <property name="expand" type="bool" value="true"/>
+    </property>
+    <property name="plugin-7" type="string" value="whiskermenu"/>
+    <property name="plugin-8" type="string" value="directorymenu">
+      <property name="base-directory" type="string" value="/home/mabrouk"/>
+      <property name="hidden-files" type="bool" value="true"/>
+    </property>
+    <property name="plugin-10" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="16707504954.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-15" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="16707512426.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-16" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="16707518908.desktop"/>
+      </property>
+      <property name="show-label" type="bool" value="false"/>
+    </property>
+    <property name="plugin-19" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="mpris-players" type="string" value="chromium.instance101211;chromium.instance201457;chromium.instance2046;chromium.instance211790;chromium.instance2322;chromium.instance2432;chromium.instance2496;chromium.instance2733;chromium.instance2741;chromium.instance28875;chromium.instance29293;chromium.instance3290;chromium.instance33993;chromium.instance3466;chromium.instance34918;chromium.instance3727;chromium.instance3855;chromium.instance75204;firefox.instance33221;firefox.instance3463;firefox.instance36249;kdeconnect.mpris_04bf027441e9406697b59128d5455fc3;kdeconnect.mpris_1233f50d56b24ddbb20b7b887893fd72;kdeconnect.mpris_1d4fd8b9ea75467795f70fda5aeb04a0;kdeconnect.mpris_3369ae28980c410383eceb634a1a30b0;kdeconnect.mpris_4d295efde3964fc8a58f0887d1c04e91;kdeconnect.mpris_7a53ae0fc3714f1aa6eb8c92d4d8dec0;kdeconnect.mpris_7df6acb60c8d4a18900fa3bb35cb5717;kdeconnect.mpris_8b2271cfe3dc4f568f2df7a5040a087e;kdeconnect.mpris_98a51bcb575144b995a75850e829ed37;kdeconnect.mpris_9bf72fa419354a3a99bf663fd3a573bd;kdeconnect.mpris_afb8a47ada1e4718bb9159e81f7b69b5;kdeconnect.mpris_b88db04c167142828212ed0d024dcc5b;kdeconnect.mpris_cffe92d3187845bdbb981c70e5fc8885;kdeconnect.mpris_d86c12615baf4c4a8f313ac6cfd610bf;kdeconnect.mpris_da45a18328074e61ac78116b9fab0725;kdeconnect.mpris_e6f49c5937614567a47aca4c4248a8f1;vlc"/>
+      <property name="enable-wnck" type="bool" value="false"/>
+      <property name="enable-multimedia-keys" type="bool" value="true"/>
+      <property name="enable-mpris" type="bool" value="true"/>
+      <property name="known-players" type="string" value="Brave;Firefox Web Browser;VLC media player"/>
+    </property>
+    <property name="plugin-1" type="string" value="xfce4-sensors-plugin"/>
+    <property name="plugin-20" type="string" value="genmon">
+      <property name="command" type="string" value=""/>
+      <property name="use-label" type="bool" value="true"/>
+      <property name="text" type="string" value="(genmon)"/>
+      <property name="update-period" type="int" value="30000"/>
+      <property name="enable-single-row" type="bool" value="true"/>
+      <property name="font" type="string" value="Sans 10"/>
+    </property>
+    <property name="plugin-14" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+  </property>
+</channel>

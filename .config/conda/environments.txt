@@ -1,1 +1,0 @@
-/home/mabrouk/anaconda3/envs/fwd

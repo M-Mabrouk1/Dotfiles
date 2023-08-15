@@ -25,3 +25,11 @@ zle-line-init() {
 zle -N zle-line-init
 # echo -ne '\e[5 q' # Use beam shape cursor on startup.
 # preexec() { echo -ne '\e[5 q' ;} # Use beam shape cursor for each new prompt.
+
+# Configure Ctrl+Backspace to delete the previous word
+# bindkey -M emacs '^[[3;5~' kill-word
+
+# Configure Ctrl+Left and Ctrl+Right to move to the previous and next word
+bindkey '^[[1;5D' backward-word
+bindkey '^[[1;5C' forward-word
+

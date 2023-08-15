@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 Dir=$HOME/Desktop/cell/
 
 # Make the cell directory if it doesn't exist
