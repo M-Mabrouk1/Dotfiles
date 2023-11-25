@@ -49,7 +49,6 @@ alt + space
 
 super + shift + p
     dunstctl set-paused toggle && dunstify "Notifications ON"
-    # {~/Dotfiles/scripts/dunstctl.sh toggle}
 
 ##### Scripts
 #Picom Toggle

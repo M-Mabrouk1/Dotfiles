@@ -967,6 +967,9 @@
   <resource identifier="gimp-gradient-fg-transparent" checksum="1491f74caf057a39c8193470da2d2a29">
   </resource>
 
+  <resource identifier="gimp-gradient-fg-transparent-hardedge" checksum="34dca90c80cbb5d91a2d07a0e2cfba84">
+  </resource>
+
   <resource identifier="${gimp_data_dir}/gradients/Abstract_1.ggr" checksum="edaa7d1fc882ab813b75b49ee9272913">
   </resource>
 
@@ -1177,7 +1180,7 @@
   <resource identifier="${gimp_data_dir}/gradients/Yellow_Orange.ggr" checksum="428584726006e23e260baa2a7d79f295">
   </resource>
 
-  <resource identifier="gimp-palette-color-history" checksum="461baf68a18ae827433bc5e6a4c89eb3">
+  <resource identifier="gimp-palette-color-history" checksum="39a29ca243e495acbed195cabfcfafef">
   </resource>
 
   <resource identifier="${gimp_data_dir}/palettes/Bears.gpl" checksum="e82e818c20ac12bdd21049924ea2d1e7">
@@ -1220,6 +1223,9 @@
   </resource>
 
   <resource identifier="${gimp_data_dir}/palettes/Ega.gpl" checksum="a8842755eb6e9534d89bc4dfa360ea91">
+  </resource>
+
+  <resource identifier="${gimp_data_dir}/palettes/elementary.gpl" checksum="ae5b36415496922dd83a5bb532be3b73">
   </resource>
 
   <resource identifier="${gimp_data_dir}/palettes/Firecode.gpl" checksum="31da06a142dbb7e290ecae399da8c198">
@@ -2251,6 +2257,42 @@
   <resource identifier="Leelawadee UI Semi-Light" checksum="(null)">
   </resource>
 
+  <resource identifier="Liberation Mono" checksum="(null)">
+  </resource>
+
+  <resource identifier="Liberation Mono Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Liberation Mono Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Liberation Mono Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Liberation Sans" checksum="(null)">
+  </resource>
+
+  <resource identifier="Liberation Sans Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Liberation Sans Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Liberation Sans Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Liberation Serif" checksum="(null)">
+  </resource>
+
+  <resource identifier="Liberation Serif Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Liberation Serif Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Liberation Serif Italic" checksum="(null)">
+  </resource>
+
   <resource identifier="Lucida Bright" checksum="(null)">
   </resource>
 
@@ -2339,6 +2381,222 @@
   </resource>
 
   <resource identifier="Matura MT Script Capitals" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGLDZ Nerd Font" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGLDZ Nerd Font Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGLDZ Nerd Font Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGLDZ Nerd Font Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGLDZ Nerd Font Mono" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGLDZ Nerd Font Mono Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGLDZ Nerd Font Mono Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGLDZ Nerd Font Mono Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGLDZ Nerd Font Propo" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGLDZ Nerd Font Propo Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGLDZ Nerd Font Propo Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGLDZ Nerd Font Propo Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGL Nerd Font" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGL Nerd Font Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGL Nerd Font Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGL Nerd Font Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGL Nerd Font Mono" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGL Nerd Font Mono Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGL Nerd Font Mono Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGL Nerd Font Mono Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGL Nerd Font Propo" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGL Nerd Font Propo Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGL Nerd Font Propo Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGL Nerd Font Propo Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGMDZ Nerd Font" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGMDZ Nerd Font Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGMDZ Nerd Font Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGMDZ Nerd Font Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGMDZ Nerd Font Mono" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGMDZ Nerd Font Mono Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGMDZ Nerd Font Mono Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGMDZ Nerd Font Mono Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGMDZ Nerd Font Propo" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGMDZ Nerd Font Propo Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGMDZ Nerd Font Propo Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGMDZ Nerd Font Propo Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGM Nerd Font" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGM Nerd Font Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGM Nerd Font Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGM Nerd Font Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGM Nerd Font Mono" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGM Nerd Font Mono Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGM Nerd Font Mono Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGM Nerd Font Mono Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGM Nerd Font Propo" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGM Nerd Font Propo Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGM Nerd Font Propo Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGM Nerd Font Propo Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGSDZ Nerd Font" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGSDZ Nerd Font Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGSDZ Nerd Font Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGSDZ Nerd Font Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGSDZ Nerd Font Mono" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGSDZ Nerd Font Mono Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGSDZ Nerd Font Mono Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGSDZ Nerd Font Mono Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGSDZ Nerd Font Propo" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGSDZ Nerd Font Propo Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGSDZ Nerd Font Propo Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGSDZ Nerd Font Propo Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGS Nerd Font" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGS Nerd Font Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGS Nerd Font Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGS Nerd Font Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGS Nerd Font Mono" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGS Nerd Font Mono Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGS Nerd Font Mono Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGS Nerd Font Mono Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGS Nerd Font Propo" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGS Nerd Font Propo Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGS Nerd Font Propo Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGS Nerd Font Propo Italic" checksum="(null)">
   </resource>
 
   <resource identifier="Metal" checksum="(null)">
@@ -2576,6 +2834,24 @@
   </resource>
 
   <resource identifier="Noto Fangsong KSS Vertical" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Kufi Arabic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Kufi Arabic Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Kufi Arabic Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Kufi Arabic Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Kufi Arabic Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Kufi Arabic Thin" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Looped Thai" checksum="(null)">
@@ -3139,6 +3415,12 @@
   <resource identifier="Noto Sans Kannada UI Thin" checksum="(null)">
   </resource>
 
+  <resource identifier="Noto Sans Kawi" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Kawi Bold" checksum="(null)">
+  </resource>
+
   <resource identifier="Noto Sans Kayah Li" checksum="(null)">
   </resource>
 
@@ -3419,6 +3701,12 @@
   </resource>
 
   <resource identifier="Noto Sans NKo" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans NKo Unjoined" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans NKo Unjoined Bold" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Nushu" checksum="(null)">
@@ -4528,130 +4816,130 @@
   <resource identifier="Sans-serif Italic" checksum="(null)">
   </resource>
 
-  <resource identifier="SauceCodePro Nerd Font" checksum="(null)">
+  <resource identifier="SauceCodePro NF" checksum="(null)">
   </resource>
 
-  <resource identifier="SauceCodePro Nerd Font Bold" checksum="(null)">
+  <resource identifier="SauceCodePro NF Bold" checksum="(null)">
   </resource>
 
-  <resource identifier="SauceCodePro Nerd Font Bold Italic" checksum="(null)">
+  <resource identifier="SauceCodePro NF Bold Italic" checksum="(null)">
   </resource>
 
-  <resource identifier="SauceCodePro Nerd Font Heavy" checksum="(null)">
+  <resource identifier="SauceCodePro NF Heavy" checksum="(null)">
   </resource>
 
-  <resource identifier="SauceCodePro Nerd Font Heavy Italic" checksum="(null)">
+  <resource identifier="SauceCodePro NF Heavy Italic" checksum="(null)">
   </resource>
 
-  <resource identifier="SauceCodePro Nerd Font Italic" checksum="(null)">
+  <resource identifier="SauceCodePro NF Italic" checksum="(null)">
   </resource>
 
-  <resource identifier="SauceCodePro Nerd Font Light" checksum="(null)">
+  <resource identifier="SauceCodePro NF Light" checksum="(null)">
   </resource>
 
-  <resource identifier="SauceCodePro Nerd Font Light Italic" checksum="(null)">
+  <resource identifier="SauceCodePro NF Light Italic" checksum="(null)">
   </resource>
 
-  <resource identifier="SauceCodePro Nerd Font Medium" checksum="(null)">
+  <resource identifier="SauceCodePro NFM" checksum="(null)">
   </resource>
 
-  <resource identifier="SauceCodePro Nerd Font Medium Italic" checksum="(null)">
+  <resource identifier="SauceCodePro NFM Bold" checksum="(null)">
   </resource>
 
-  <resource identifier="SauceCodePro Nerd Font Mono" checksum="(null)">
+  <resource identifier="SauceCodePro NFM Bold Italic" checksum="(null)">
   </resource>
 
-  <resource identifier="SauceCodePro Nerd Font Mono Bold" checksum="(null)">
+  <resource identifier="SauceCodePro NF Medium" checksum="(null)">
   </resource>
 
-  <resource identifier="SauceCodePro Nerd Font Mono Bold Italic" checksum="(null)">
+  <resource identifier="SauceCodePro NF Medium Italic" checksum="(null)">
   </resource>
 
-  <resource identifier="SauceCodePro Nerd Font Mono Heavy" checksum="(null)">
+  <resource identifier="SauceCodePro NFM Heavy" checksum="(null)">
   </resource>
 
-  <resource identifier="SauceCodePro Nerd Font Mono Heavy Italic" checksum="(null)">
+  <resource identifier="SauceCodePro NFM Heavy Italic" checksum="(null)">
   </resource>
 
-  <resource identifier="SauceCodePro Nerd Font Mono Italic" checksum="(null)">
+  <resource identifier="SauceCodePro NFM Italic" checksum="(null)">
   </resource>
 
-  <resource identifier="SauceCodePro Nerd Font Mono Light" checksum="(null)">
+  <resource identifier="SauceCodePro NFM Light" checksum="(null)">
   </resource>
 
-  <resource identifier="SauceCodePro Nerd Font Mono Light Italic" checksum="(null)">
+  <resource identifier="SauceCodePro NFM Light Italic" checksum="(null)">
   </resource>
 
-  <resource identifier="SauceCodePro Nerd Font Mono Medium" checksum="(null)">
+  <resource identifier="SauceCodePro NFM Medium" checksum="(null)">
   </resource>
 
-  <resource identifier="SauceCodePro Nerd Font Mono Medium Italic" checksum="(null)">
+  <resource identifier="SauceCodePro NFM Medium Italic" checksum="(null)">
   </resource>
 
-  <resource identifier="SauceCodePro Nerd Font Mono Semi-Bold" checksum="(null)">
+  <resource identifier="SauceCodePro NFM Semi-Bold" checksum="(null)">
   </resource>
 
-  <resource identifier="SauceCodePro Nerd Font Mono Semi-Bold Italic" checksum="(null)">
+  <resource identifier="SauceCodePro NFM Semi-Bold Italic" checksum="(null)">
   </resource>
 
-  <resource identifier="SauceCodePro Nerd Font Mono Ultra-Light" checksum="(null)">
+  <resource identifier="SauceCodePro NFM Ultra-Light" checksum="(null)">
   </resource>
 
-  <resource identifier="SauceCodePro Nerd Font Mono Ultra-Light Italic" checksum="(null)">
+  <resource identifier="SauceCodePro NFM Ultra-Light Italic" checksum="(null)">
   </resource>
 
-  <resource identifier="SauceCodePro Nerd Font Propo" checksum="(null)">
+  <resource identifier="SauceCodePro NFP" checksum="(null)">
   </resource>
 
-  <resource identifier="SauceCodePro Nerd Font Propo Bold" checksum="(null)">
+  <resource identifier="SauceCodePro NFP Bold" checksum="(null)">
   </resource>
 
-  <resource identifier="SauceCodePro Nerd Font Propo Bold Italic" checksum="(null)">
+  <resource identifier="SauceCodePro NFP Bold Italic" checksum="(null)">
   </resource>
 
-  <resource identifier="SauceCodePro Nerd Font Propo Heavy" checksum="(null)">
+  <resource identifier="SauceCodePro NFP Heavy" checksum="(null)">
   </resource>
 
-  <resource identifier="SauceCodePro Nerd Font Propo Heavy Italic" checksum="(null)">
+  <resource identifier="SauceCodePro NFP Heavy Italic" checksum="(null)">
   </resource>
 
-  <resource identifier="SauceCodePro Nerd Font Propo Italic" checksum="(null)">
+  <resource identifier="SauceCodePro NFP Italic" checksum="(null)">
   </resource>
 
-  <resource identifier="SauceCodePro Nerd Font Propo Light" checksum="(null)">
+  <resource identifier="SauceCodePro NFP Light" checksum="(null)">
   </resource>
 
-  <resource identifier="SauceCodePro Nerd Font Propo Light Italic" checksum="(null)">
+  <resource identifier="SauceCodePro NFP Light Italic" checksum="(null)">
   </resource>
 
-  <resource identifier="SauceCodePro Nerd Font Propo Medium" checksum="(null)">
+  <resource identifier="SauceCodePro NFP Medium" checksum="(null)">
   </resource>
 
-  <resource identifier="SauceCodePro Nerd Font Propo Medium Italic" checksum="(null)">
+  <resource identifier="SauceCodePro NFP Medium Italic" checksum="(null)">
   </resource>
 
-  <resource identifier="SauceCodePro Nerd Font Propo Semi-Bold" checksum="(null)">
+  <resource identifier="SauceCodePro NFP Semi-Bold" checksum="(null)">
   </resource>
 
-  <resource identifier="SauceCodePro Nerd Font Propo Semi-Bold Italic" checksum="(null)">
+  <resource identifier="SauceCodePro NFP Semi-Bold Italic" checksum="(null)">
   </resource>
 
-  <resource identifier="SauceCodePro Nerd Font Propo Ultra-Light" checksum="(null)">
+  <resource identifier="SauceCodePro NFP Ultra-Light" checksum="(null)">
   </resource>
 
-  <resource identifier="SauceCodePro Nerd Font Propo Ultra-Light Italic" checksum="(null)">
+  <resource identifier="SauceCodePro NFP Ultra-Light Italic" checksum="(null)">
   </resource>
 
-  <resource identifier="SauceCodePro Nerd Font Semi-Bold" checksum="(null)">
+  <resource identifier="SauceCodePro NF Semi-Bold" checksum="(null)">
   </resource>
 
-  <resource identifier="SauceCodePro Nerd Font Semi-Bold Italic" checksum="(null)">
+  <resource identifier="SauceCodePro NF Semi-Bold Italic" checksum="(null)">
   </resource>
 
-  <resource identifier="SauceCodePro Nerd Font Ultra-Light" checksum="(null)">
+  <resource identifier="SauceCodePro NF Ultra-Light" checksum="(null)">
   </resource>
 
-  <resource identifier="SauceCodePro Nerd Font Ultra-Light Italic" checksum="(null)">
+  <resource identifier="SauceCodePro NF Ultra-Light Italic" checksum="(null)">
   </resource>
 
   <resource identifier="Script MT Bold, Bold" checksum="(null)">

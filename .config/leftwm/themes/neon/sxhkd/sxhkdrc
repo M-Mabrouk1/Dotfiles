@@ -57,6 +57,9 @@ ctrl + alt + o
 #Mount android
 super + shift + m
     ~/Dotfiles/scripts/mtp.sh
+#Set Layout Monocle
+super + shift + u
+    leftwm-command "SetLayout Monocle"
 
 ##### Multimedia
 #Raises volume

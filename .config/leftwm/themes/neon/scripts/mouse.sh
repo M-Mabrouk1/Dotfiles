@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 path=$(find /sys/class/power_supply -name "hidpp*")
 if [ -z "$path" ]
 then

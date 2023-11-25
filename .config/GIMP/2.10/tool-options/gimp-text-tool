@@ -1,6 +1,6 @@
 # GIMP gimp-text-tool options
 
-(foreground (color-rgb 1 1 1))
+(foreground (color-rgb 0.043137256056070328 0.011764706112444401 0.0039215688593685627))
 (palette "linux")
 (font "Noto Sans Kannada UI")
 (font-size 200)
