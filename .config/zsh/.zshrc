@@ -46,8 +46,6 @@ source "$ZDOTDIR/zsh-functions"
 
 #vim mode
 zsh_add_file "zsh-vim-mode"
-# bindkey -e
-# bindkey "^?" backward-delete-char
 
 # adding files
 zsh_add_file "zsh-aliases"
